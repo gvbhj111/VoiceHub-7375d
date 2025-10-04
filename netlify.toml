@@ -7,7 +7,7 @@
   NITRO_PRESET = "netlify"
 
 [functions]
-  directory = ".netlify/functions-internal"
+  directory = ".netlify/functions"
   node_bundler = "esbuild"
   # 增加内存限制和超时时间
   [functions."server"]
