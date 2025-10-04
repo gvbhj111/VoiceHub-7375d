@@ -1,5 +1,5 @@
 [build]
-  command = "npm install  npm run deploy"
+  command = "npm run deploy npm install"
   publish = "dist"
 
 [build.environment]
